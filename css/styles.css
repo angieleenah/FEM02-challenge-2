@@ -4,84 +4,108 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-	font-family: "Spartan", Arial, sans-serif;
-	margin: 0px;
-	padding: 0px;
-	font-size: 15px;
+  font-family: "Spartan", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
 }
 
 h1 {
-	font-weight: 700;
-	color: #502050;
+  font-weight: 700;
+  color: #502050;
 }
-h2{
-	color: #502050;
-	font-weight: 700;
-	font-size: 15px;
-	
+h2 {
+  color: #502050;
+  font-weight: 700;
+  font-size: 15px;
 }
-h3{
-	color:#fff;
-	font-weight: 300px;
-	font-size: 15px;
-	
+h3 {
+  color: #fff;
+  font-weight: 300px;
+  font-size: 15px;
+  margin: 0 0 5px 0;
 }
 h4 {
-	color:#ee68a4;
-	font-weight: 400;
-	
+  margin: 0;
+  color: #ee68a4;
+  font-weight: 400;
 }
-img {
-	border-radius: 50%;
+
+.pic {
+  height: 40px;
+  border-radius: 50%;
+
 }
+
+.img-pic {
+  padding-right: 20px;
+}
+
 p {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 .promo-text {
-	color:#937b92;
+  color: #937b92;
 }
 
 .wrapper {
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row-gap: 5%;
 }
 .row-1 {
-	grid-column: 2/5;
-	grid-row: 1/2;
-	display: grid;
+  grid-column: 2/5;
+  grid-row: 1/2;
+  display: grid;
 }
 .row-2 {
-	
-	grid-column: 2/5;
-	grid-row:2/3;
-	background-color: #502050;
-	display: grid;
+  grid-column: 2/5;
+  grid-row: 2/3;
+  display: grid;
+  grid-column-gap: 2%;
 }
-
 
 .col-1-1 {
-	grid-column: 1/2;
+  grid-column: 1/2;
 }
 .col-1-2 {
-	grid-column: 2/3;
+  grid-column: 2/3;
 }
-
-.col-2-1{
-	grid-column: 1/2;
+.col-2-1 {
+  grid-column: 1/2;
 }
-
 .col-2-2 {
-	grid-column: 2/3;
+  grid-column: 2/3;
+}
+.col-2-3 {
+  grid-column: 3/4;
 }
 
-.col-2-3{
-	grid-column:3/4;	
+.col-stars {
+  display:flex;
+  border-radius: 10px;
+  padding:10px;
+  width: 450px;
+  background-color: #f7f2f7;
 }
 
+.stars {
+  margin: 12.45px 20px;
+}
 
+.col-testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  color:#fff;
+  background-color: #502050;
+}
