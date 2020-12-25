@@ -206,7 +206,7 @@ p {
   }
 }
 
-/* Extra large devices (large desktops, 1400px and up) */
+/* Extra large devices (large desktops, 1280px and up) */
 @media (min-width: 1280px) {
   .wrapper {
     grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
